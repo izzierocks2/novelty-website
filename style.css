@@ -1,8 +1,9 @@
 .image-giraffe{
-    width: 97%;
+    width: auto;
     height: auto;
     filter: drop-shadow(8px 8px 10px gray);
     box-shadow: 0 0 10px gray, 0 0 20px gray, 0 0 30px gray;
+    margin-right: 20px;
 }
 
 .image:hover {
@@ -36,8 +37,16 @@ body{
     background-color: rgb(196, 222, 234);
 }
 
-.footer{
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightcyan;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
